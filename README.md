@@ -1,6 +1,6 @@
 ## MDCCST Dataset
 
-This repository contains labeled Mandarin translation to the MDCC Cantonese ASR dataset [https://github.com/HLTCHKUST/cantonese-asr]
+This repository contains labeled Mandarin translation to the MDCC Cantonese ASR dataset. [https://github.com/HLTCHKUST/cantonese-asr]
 
 For the original Cantonese transcription and audios, please find in the above MDCC repository.
 
@@ -14,3 +14,11 @@ For the original Cantonese transcription and audios, please find in the above MD
 ```
 
 Please cite the above paper if you use the MDCCST Mandarin translation in your research.
+
+# Data format
+
+All translated texts are splited to "train (65120 lines)/dev (5663 lines)/test (12492 lines)" as the original repo did. [https://github.com/HLTCHKUST/cantonese-asr/tree/main/dataset]
+
+Example:
+Audio  MDCCST translation
+447_2101051829_46868_983.96_985.56	小孩子不要撒谎
